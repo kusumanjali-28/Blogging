@@ -1,0 +1,38 @@
+Blogger Website Project: MERN Stack
+
+Developer Information:
+
+Name: Krovvidi Kusumanjali
+Email: kusumanjali.k20@iiits.in
+
+Project Overview:
+The blogging website project utilizes the MERN (MongoDB, Express.js, React, Node.js) stack and is divided into two main folders - "frontend" and "backend."
+
+Frontend:
+
+To run the frontend, execute npm start and open http://localhost:3000 to view the website.
+Directory Structure (within "frontend/src/components"):
+ContactUs: Contact page.
+Display: Displays all the posts.
+Main: Front page of the website.
+MyPosts: Displays posts posted by the logged-in user.
+Navbar: Navigation bar.
+New: Form for creating a new post.
+Profile: Contains details of the logged-in user.
+Register: Register and login functionality.
+Backend:
+
+To run the backend, execute nodemon index.js.
+Directory Structure:
+index.js: Main file to run the backend.
+PostModel: Model for posts.
+PostRoute: Router for posts.
+RegModel: Model for user registrations.
+RegRoute: Router for user registrations.
+API Endpoints:
+
+"http://localhost:5000/api/regs": Contains data of all registered users.
+"http://localhost:5000/api/images": Contains data of all posts.
+
+
+This project allows users to register, create new posts, view all posts,edit their posts,comment and like on other posts, and see posts specifically posted by the logged-in user. The website is built with a MERN stack, combining the power of MongoDB for the database, Express.js for the backend, React for the frontend, and Node.js as the runtime environment.

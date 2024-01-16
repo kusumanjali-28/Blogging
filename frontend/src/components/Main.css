@@ -1,0 +1,218 @@
+/* Main.css */
+.pp2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  
+  .reg {
+    background-color: rgba(255, 255, 255, 0.7); /* Setting a transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adjusted box-shadow for enhancement */
+    width: 50vh;
+  }
+
+  form {
+    display: flex;
+
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Add this to your Main.css file or wherever you manage your styles */
+
+.userp {
+  width: 350px; /*Adjust the width as needed
+  /* height: 40px; Adjust the height as needed */
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+  
+  .submit {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: #45a049;
+  }
+  
+  /* Navbar.css */
+
+
+
+
+
+/* Main.css */
+
+.topnav {
+  overflow: hidden;
+  background-color: #52005a;
+  /* background-color: #a72eb2; */
+
+  text-align: center;
+}
+
+.topnav a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 25px 25px;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.centered {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Main.css */
+
+.mainp {
+  width: 40%; /* Set the width to 100% */
+  height: 500px; /* Maintain the aspect ratio */
+  border: 1px solid #ccc; /* Optional: Add a border for styling */
+  margin-top: 60px;
+}
+/* my-blog-app/src/App.css */
+
+/* body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Set your desired background color */
+*/
+
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+.pp3 {
+  background-color: #944000;
+background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: 0;
+}
+
+.new{
+  background-color: rgba(175, 149, 149, 0.7); /* Setting a transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10 0 20px rgba(0, 0, 0, 0.5); /* Adjusted box-shadow for enhancement */
+    width: 60vh;
+    height: 500px;
+    text-align: center;
+    border: 4px solid #000000; 
+}
+
+/* Add these styles to your existing CSS file (Main.css) or create a new one */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+.cardsi{
+}
+.card {
+  width: 40%;
+  margin-bottom: 20px;
+  padding: 50px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.modal {
+  /* Add styles for visibility, position, etc. */
+  /* Example styles: */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #d3d3d3; /* Set background color as cement */
+}
+
+.user-info-box {
+  padding: 100px;
+  border: 1px solid #000; /* Add border for the box */
+  background-color: #000000; /* Set background color for the box */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box-shadow for a subtle lift */
+  max-width: 800px; /* Optional: Set a maximum width for the box */
+}
+
+
+/* ContactPage.css */
+/* ContactPage.css */
+
+.contact-container {
+  max-width: 600px;
+  margin: 200px 420px;
+  padding: 20px;
+  background-color: rgba(215, 177, 209, 0.8); /* Add a semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(121, 18, 122, 0.2); /* Add a subtle shadow */
+  text-align: center;
+}
+
+.contact-container h2 {
+  color: #333; /* Set text color */
+}
+
+.contact-details {
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */
+
+/* Add more styles as needed */
