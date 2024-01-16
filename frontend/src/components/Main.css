@@ -1,4 +1,4 @@
-/* Main.css */
+
 .pp2 {
     display: flex;
     align-items: center;
@@ -9,10 +9,10 @@
   
   
   .reg {
-    background-color: rgba(255, 255, 255, 0.7); /* Setting a transparent white background */
+    background-color: rgba(255, 255, 255, 0.7); 
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adjusted box-shadow for enhancement */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
     width: 50vh;
   }
 
@@ -33,11 +33,8 @@
     border-radius: 5px;
   }
   
-  /* Add this to your Main.css file or wherever you manage your styles */
-
 .userp {
-  width: 350px; /*Adjust the width as needed
-  /* height: 40px; Adjust the height as needed */
+  width: 350px; 
   padding: 8px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
@@ -58,19 +55,10 @@
     background-color: #45a049;
   }
   
-  /* Navbar.css */
-
-
-
-
-
-/* Main.css */
-
+  
 .topnav {
   overflow: hidden;
   background-color: #52005a;
-  /* background-color: #a72eb2; */
-
   text-align: center;
 }
 
@@ -92,12 +80,11 @@
   margin: 0 auto;
 }
 
-/* Main.css */
 
 .mainp {
-  width: 40%; /* Set the width to 100% */
-  height: 500px; /* Maintain the aspect ratio */
-  border: 1px solid #ccc; /* Optional: Add a border for styling */
+  width: 40%;
+  height: 500px; 
+  border: 1px solid #ccc; 
   margin-top: 60px;
 }
 /* my-blog-app/src/App.css */
@@ -109,7 +96,7 @@
   justify-content: center;
   min-height: 100vh;
   background-color: #f0f0f0; /* Set your desired background color */
-*/
+
 
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 .pp3 {
@@ -213,6 +200,5 @@ margin: 0;
   margin-top: 20px;
 }
 
-/* Add more styles as needed */
 
 /* Add more styles as needed */
