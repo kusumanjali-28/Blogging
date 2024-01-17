@@ -20,7 +20,7 @@ const Display = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/images');
+        const response = await fetch('https://blog-ain8.onrender.com/api/images');
         const images = await response.json();
         setData(images);
       } catch (error) {
@@ -34,7 +34,7 @@ const Display = () => {
 
   const handleLike = async (postId) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/like/${postId}`, {
+      const response = await fetch(`https://blog-ain8.onrender.com/api/like/${postId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -59,7 +59,7 @@ const Display = () => {
 
   const handleComment = async (postId, text) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/comment/${postId}`, {
+      const response = await fetch(`https://blog-ain8.onrender.com/api/comment/${postId}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -92,7 +92,7 @@ const Display = () => {
         {data.map((item, index) => (
           <div className="card" style={{ backgroundColor: "#d0bdf4" }} key={index}>
             <h3 style={{ fontFamily: "cursive" }}>{item.title}</h3>
-            <img src={`http://localhost:5000/${item.path}`} style={{ height: '250px' }} alt={item.title} />
+            <img src={`https://blog-ain8.onrender.com/${item.path}`} style={{ height: '250px' }} alt={item.title} />
             <p>{item.content}</p>
             <div className="icon-container">
               <FontAwesomeIcon
