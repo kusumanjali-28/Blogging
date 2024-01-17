@@ -50,7 +50,7 @@ const New = () => {
       formData.append('content', content);
       formData.append('username', JSON.stringify(userDetails.username) );
 
-      const response = await fetch('http://localhost:5000/api/upload', {
+      const response = await fetch('https://blog-ain8.onrender.com/api/upload', {
         method: 'POST',
         body: formData,
       });
