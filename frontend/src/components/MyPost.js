@@ -20,7 +20,7 @@ const MyPost = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/images');
+        const response = await fetch('https://blog-ain8.onrender.com/api/images');
         const images = await response.json();
         setData(images);
       } catch (error) {
@@ -33,7 +33,7 @@ const MyPost = () => {
 
   const handleDelete = async (postId) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/delete/${postId}`, {
+      const response = await fetch(`https://blog-ain8.onrender.com/api/delete/${postId}`, {
         method: 'DELETE',
       });
 
@@ -61,7 +61,7 @@ const MyPost = () => {
       const editedContent = prompt('Enter new content:', post.content);
   
       if (editedTitle !== null && editedContent !== null) {
-        const response = await fetch(`http://localhost:5000/api/edit/${post._id}`, {
+        const response = await fetch(`https://blog-ain8.onrender.com/api/edit/${post._id}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
@@ -100,7 +100,7 @@ console.log(pp);
           <div className="card" style={{ backgroundColor: "#d0bdf4" }} key={index}>
             {/* ... (existing card content) */}
             <h3 style={{ fontFamily: "cursive" }}>{item.title}</h3>
-            <img src={`http://localhost:5000/${item.path}`} style={{ height: '250px' }} alt={item.title} />
+            <img src={`https://blog-ain8.onrender.com/${item.path}`} style={{ height: '250px' }} alt={item.title} />
             <p>{item.content}</p>
             <p><b>Likes </b>{item.likes}</p>
             <div className="icon-container">
