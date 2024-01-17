@@ -18,7 +18,7 @@ function AuthPage() {
 
   useEffect(() => {
     // Fetch the list of registered users when the component mounts
-    fetch('http://localhost:5000/api/regs')
+    fetch('https://blog-ain8.onrender.com/api/regs')
       .then((res) => res.json())
       .then((data) => setRegisteredUsers(data))
       .catch((error) => console.log(error));
@@ -68,7 +68,7 @@ function AuthPage() {
       setLoginError('User already exists');
     } else {
       // User does not exist, proceed with registration
-      fetch('http://localhost:5000/api/regs', {
+      fetch('https://blog-ain8.onrender.com/api/regs', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
